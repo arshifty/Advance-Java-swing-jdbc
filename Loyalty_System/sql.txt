@@ -1,0 +1,22 @@
+UPDATE customer
+SET platinum='40000';
+
+SQL DEFAULT on ALTER TABLE
+ALTER TABLE Persons
+ALTER City SET DEFAULT 'Sandnes';
+
+DROP a DEFAULT Constraint
+ALTER TABLE Persons
+ALTER City DROP DEFAULT;
+
+ALTER TABLE - ADD Column
+ALTER TABLE table_name
+ADD column_name datatype;
+
+ALTER TABLE - DROP COLUMN
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE - ALTER/MODIFY COLUMN
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype;
